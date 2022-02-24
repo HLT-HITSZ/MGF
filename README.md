@@ -1,13 +1,13 @@
 # Prerequisites
-python 3.7.12 
-pytorch 1.8.1 
+python 3.7.12  
+pytorch 1.8.1  
 cuda 10.2  
-transformers 4.12.5
+transformers 4.12.5  
 json 2.0.9  
 numpy 1.21.2  
-pandas 1.3.4 
-dgl-cu102 0.6.1
-nltk 3.6.5
+pandas 1.3.4  
+dgl-cu102 0.6.1  
+nltk 3.6.5  
 # Descriptions
 **data** - contains dataset.  
 * ```bert-base-uncased```: put the download Pytorch bert model here (config.json, pytorch_model.bin, vocab.txt) (https://huggingface.co/bert-base-uncased/tree/main). 
@@ -26,6 +26,6 @@ nltk 3.6.5
 ```to_bioes.py``` - change to bioes label.  
 
 # Usage
-python prepare_data.py
-python to_bioes.py
-python run.py
+python prepare_data.py  
+python to_bioes.py  
+python run.py  
