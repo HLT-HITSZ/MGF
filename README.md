@@ -10,7 +10,7 @@ dgl-cu102 0.6.1
 nltk 3.6.5  
 # Descriptions
 **data** - contains dataset.  
-* ```bert-base-uncased```: put the download Pytorch bert model here (config.json, pytorch_model.bin, vocab.txt) (https://huggingface.co/bert-base-uncased/tree/main). 
+* ```bert-base-uncased```: put the download Pytorch bert model here (config.json, pytorch_model.bin) (https://huggingface.co/bert-base-uncased/tree/main). Note that, please use our provided vocab.txt in this dir.
 * ```rr-submission```: contains RR dataset, download from (https://github.com/LiyingCheng95/ArgumentPairExtraction/tree/master/data/rr-submission) 
 
 **saved_models** - contains saved models, training logs and results.  
